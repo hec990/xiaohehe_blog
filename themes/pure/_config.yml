@@ -1,0 +1,36 @@
+favicon: https://z3.ax1x.com/2021/08/01/WzV1YQ.png
+avatar: https://z3.ax1x.com/2021/08/01/WzV1YQ.png
+katex: false
+
+# 导航栏显示的选项
+menus:
+  - name: 首页
+    link: /
+  - name: 归档
+    link: /archives/
+  - name: 标签
+    link: /tags/
+  - name: 关于
+    link: /about/
+
+disqus:
+  enable: false
+  shortname: 'Your shortname here'
+  api: 'Your api here'
+  apikey: 'Your api key here'
+  admin: 'Your disqus username here'
+
+# 谷歌分析设置
+google_analytics:
+  enable: true
+  id: UA-xxxxxxxxx-x
+
+# 显示页脚内容
+footer: Copyright © 2021-2021 XiaoHeHe's Blog 
+
+# 友链
+# friends:
+#     name: 小何何的个人网站
+#     link: https://it770.cn/
+#     logo: https://cdn.jsdelivr.net/npm/bsi@0.0.2/favicon/128x128.png
+#     description: 学习，就是发现自己越来越菜的过程。
