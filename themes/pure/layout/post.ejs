@@ -6,7 +6,7 @@
             </h1>
             <div class="post-info">
                 <time class="post-time gt-c-content-color-first">
-                    · <%= date(page.date) %> ·</time>
+                     <%= date(page.date) %> </time>
                 <% if(page.tags) { %>
                     <% page.tags.forEach((tag) => { %>
                         <a href="<%= url_for(tag.path) %>" class="post-tag">
