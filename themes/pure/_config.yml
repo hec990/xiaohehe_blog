@@ -1,5 +1,6 @@
 favicon: https://z3.ax1x.com/2021/08/01/WzV1YQ.png
 avatar: https://z3.ax1x.com/2021/08/01/WzV1YQ.png
+site-name: "123"
 katex: false
 
 # 导航栏显示的选项
@@ -13,6 +14,7 @@ menus:
   - name: 关于
     link: /about/
 
+# 评论系统
 disqus:
   enable: false
   shortname: 'Your shortname here'
@@ -25,8 +27,9 @@ google_analytics:
   enable: true
   id: UA-xxxxxxxxx-x
 
+
 # 显示页脚内容
-footer: Copyright © 2021-2021 XiaoHeHe's Blog 
+footer: Copyright © 2021-2021 XiaoHeHe
 
 # 友链
 # friends:

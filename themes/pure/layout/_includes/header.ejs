@@ -2,7 +2,7 @@
     <div class="navbar-brand">
         <img class="user-avatar" src="<%- url_for(theme.avatar) %>" alt="头像">
         <div class="site-name gt-c-content-color-first">
-            <%- site.title %>
+            小何何
         </div>
     </div>
     <button aria-label="Navbar Toggler" class="navbar-toggler" type="button" id="changeNavbar">
@@ -16,12 +16,15 @@
         <div class="navbar-nav mr-auto" style="text-align: center; ">
             <% theme.menus.forEach(function(menu) { %>
                 <div class="nav-item">
-                    <a href="<%= url_for(menu.link) %>" class="menu gt-a-link" target="<%- menu.target ? menu.target : "_self" %>"><%= menu.name %></a>
+                    <a href="<%= url_for(menu.link) %>" class="menu gt-a-link" target="<%- menu.target ? menu.target : " _self " %>">
+                        <%= menu.name %>
+                    </a>
                 </div>
-            <% }); %>
+                <% }); %>
         </div>
     </div>
 </nav>
+
 
 <script>
     /* 移动端导航栏展开/收起切换 */
@@ -29,7 +32,7 @@
         let element = document.getElementById('navbarSupportedContent');
         if (element.style.display === 'none' || element.style.display === '') {
             element.style.display = 'block';
-        } else { 
+        } else {
             element.style.display = 'none';
         }
     }
